@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-all_data = pd.read_csv('main_data.csv')
+all_data = pd.read_csv('/dashboard/main_data.csv')
 
 # Set Judul
 st.title('Brazilian E-commerce Sales Dashboard')
